@@ -155,4 +155,20 @@ class Source
     {
         return $this->_heartbeat;
     }
+
+    /**
+     * @return string
+     */
+    public function getKey()
+    {
+        return $this->_key;
+    }
+
+    /**
+     * @param string $key
+     */
+    public function setKey($key)
+    {
+        $this->_key = $key;
+    }
 }

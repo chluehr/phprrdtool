@@ -213,4 +213,20 @@ class Database
         return $this->_step;
     }
 
+    /**
+     * @return string
+     */
+    public function getFilename()
+    {
+        return $this->_filename;
+    }
+
+    /**
+     * @param string $filename
+     */
+    public function setFilename($filename)
+    {
+        $this->_filename = $filename;
+    }
+
 }
